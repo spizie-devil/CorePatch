@@ -1,8 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="style_7f050000" parent="@android:style/Theme.Material">
+        <!-- Fundo escuro -->
+        <item name="android:colorBackground">#ff121212</item>
+        <item name="android:windowBackground">#ff121212</item>
 
-    <style name="AppTheme" parent="android:Theme.Material">
-        <item name="android:colorAccent">#3F51B5</item>
+        <!-- Textos claros -->
+        <item name="android:textColorPrimary">#ffe0e0e0</item>
+        <item name="android:textColorSecondary">#ffb0b0b0</item>
+
+        <!-- Accent roxo -->
+        <item name="android:colorAccent">#ffbb86fc</item>
+
+        <!-- Divisores sutis -->
+        <item name="android:divider">#ff333333</item>
+        <item name="android:dividerHeight">1dp</item>
+
+        <!-- Barra de navegação transparente -->
         <item name="android:navigationBarColor">@android:color/transparent</item>
     </style>
-
 </resources>
